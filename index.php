@@ -6,7 +6,7 @@ include 'controller.php';
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-         <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
         <meta charset="utf-8" />
         <title><?= $title; ?></title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
