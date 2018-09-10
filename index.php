@@ -22,7 +22,7 @@ include 'controller.php';
                 <ul class="navbar-nav">
                     <?php for ($numberPage = 0; $numberPage < count($allPage); $numberPage++) { ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="?page=<?= $numberPage; ?>"><?= $xml->page[$numberPage]->menu; ?></a>
+                        <a class="nav-link" href="/page-<?= $numberPage; ?>.html"><?= $xml->page[$numberPage]->menu; ?></a>
                     </li>
                     <?php } ?>
                 </ul>

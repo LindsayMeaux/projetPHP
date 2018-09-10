@@ -1,0 +1,4 @@
+# Turn mod_rewrite on
+RewriteEngine On
+
+RewriteRule ^page-([0-3]+).html$ index.php?page=$1
