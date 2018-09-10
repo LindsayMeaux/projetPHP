@@ -1,5 +1,16 @@
 <?php
-// appel du controller php dans le répertoire controller
+// import
 include 'controller.php';
-echo $xml->page[$page]->content;
 ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?= $title; ?></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <?php
+        echo $xml->page[$page]->content;
+        ?>
+    </body>
+</html>
