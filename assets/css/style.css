@@ -1,3 +1,4 @@
+
 p{
 text-align: center; 
 font-family: arial; 
@@ -23,3 +24,36 @@ ul{
 .caption-text{
     text-transform: uppercase;
 }
+
+.container{
+    height: 100%;
+    background-color: #c7d6d5;
+}
+#navbar-brand{
+    color: #FFF;
+} 
+h2{ 
+    text-align: center; 
+}
+.container{
+    height: 100%;
+    background-color: #c7d6d5;
+}
+#navbar-brand{
+    color: #FFF;
+}
+a{
+    color: #FFF !important;
+    font-family: 'Handlee', cursive;
+}
+p{ 
+    font-family: 'Handlee', cursive; 
+    font-size: 20px; } 
+img{ 
+    border-radius: 15%;
+    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+} 
+h2{ text-align: center; } 
+ul{ font-family: 'Handlee', cursive; font-size: 20px;
+}
+
