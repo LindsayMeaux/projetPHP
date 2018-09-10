@@ -14,5 +14,7 @@ if (isset($_GET['page'])){
     $page = 0;
 }
 // on définit une variable $title qui va prendre la valeur de title du fichier xml en fonction de l'id de la page
+$content = $xml->page[$page]->content;
 $title = $xml->page[$page]->title;
-?>
+$menu = $xml->page[$page]->menu;
+$allPage = $xml->page;
