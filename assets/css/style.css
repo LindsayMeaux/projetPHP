@@ -1,13 +1,25 @@
 p{
 text-align: center; 
-font-family: 'Handlee', cursive; 
+font-family: arial; 
 font-size: 20px; } 
-img{ border-radius: 15%;
+img{ border-radius: 10%;
 box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 
 } 
-.img{ text-align: center; } 
-h1{ text-align: center; } 
-h2{ text-align: center; } 
-ul{ font-family: 'Handlee', cursive; font-size: 20px;
+.img{ text-align: center; 
+display: inline-block;} 
+h1{ 
+    text-align: center;
+    text-transform: uppercase;
+    
+} 
+h2{ 
+    text-align: center;
+    text-transform: uppercase;
+} 
+ul{ 
+    font-family: arial; font-size: 20px;
+}
+.caption-text{
+    text-transform: uppercase;
 }
