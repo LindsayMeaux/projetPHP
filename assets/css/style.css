@@ -1,39 +1,21 @@
-
-p{
-text-align: center; 
-font-family: arial; 
-font-size: 20px; } 
-img{ border-radius: 10%;
-box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
-
-} 
-.img{ text-align: center; 
-display: inline-block;} 
-h1{ 
+img{
+    border-radius: 15%;
+    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+}
+.img{
+    text-align: center;
+    display: inline-block;
+}
+h1{
     text-align: center;
     text-transform: uppercase;
-    
-} 
-h2{ 
+}
+h2{
     text-align: center;
     text-transform: uppercase;
-} 
-ul{ 
-    font-family: arial; font-size: 20px;
 }
 .caption-text{
     text-transform: uppercase;
-}
-
-.container{
-    height: 100%;
-    background-color: #c7d6d5;
-}
-#navbar-brand{
-    color: #FFF;
-} 
-h2{ 
-    text-align: center; 
 }
 .container{
     height: 100%;
@@ -46,20 +28,18 @@ a{
     color: #FFF !important;
     font-family: 'Handlee', cursive;
 }
-p{ 
-    font-family: 'Handlee', cursive; 
-    font-size: 20px; } 
-img{ 
-    border-radius: 15%;
-    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
-} 
-h2{ text-align: center; } 
-ul{ font-family: 'Handlee', cursive; font-size: 20px;
+p{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+ul{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
 }
 h4{
-   text-align: center;  
+    text-align: center;
 }
 .imgShadow{
-   box-shadow: none;
-   border-radius: 10%;
+    box-shadow: none;
+    border-radius: 10%;
 }
