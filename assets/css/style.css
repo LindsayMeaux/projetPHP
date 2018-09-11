@@ -39,6 +39,9 @@ h4{
     text-align: center;
 }
 .imgShadow{
+    width:115px;
     box-shadow: none;
-    border-radius: 10%;
+}
+.alignText{
+    text-align: center;
 }
