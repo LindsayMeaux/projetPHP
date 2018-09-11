@@ -29,7 +29,7 @@ include 'controller.php';
                 </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container" id="colorContainer">
             <?= $content; ?>
         </div>
         <?php
