@@ -1,4 +1,6 @@
-
+body{
+    background-color: grey;
+}
 p{
 text-align: center; 
     font-family: 'Handlee', cursive; 
