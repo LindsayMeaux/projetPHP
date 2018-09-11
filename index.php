@@ -15,7 +15,7 @@ include 'controller.php';
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a id="navbar-brand" class="navbar-brand" href="/">Navbar</a>
+            <img class="imgShadow" src="assets/img/Screenshot_2018-09-10 Ocordo Travaux Nantes - Entreprise de rénovation et construction.png" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,5 +32,8 @@ include 'controller.php';
         <div class="container">
             <?= $content; ?>
         </div>
+        <?php
+        include 'footer.php';
+        ?>
     </body>
 </html>
