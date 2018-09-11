@@ -14,12 +14,12 @@ if (isset($_POST['your-name'])) {
     // test de la regex si valide
     if (!preg_match($regexName, $name)) {
         // stockage de l'erreur dans le tableau formError
-        $formError['yout-name'] = 'Nom invalide';
+        $formError['your-name'] = 'Nom invalide';
     }
     // verification si le champ est vide
     if (empty($name)) {
         // stockage de l'erreur dans le tableau formError
-        $formError['yout-name'] = 'Nom obligatoire';
+        $formError['your-name'] = 'Nom obligatoire';
     }
 }
 
@@ -87,7 +87,7 @@ if (isset($_POST['your-message'])) {
         $formError['your-message'] = 'Message invalide';
     }
     // verification si le champ est vide
-    if (empty($mesage)) {
+    if (empty($message)) {
         // stockage de l'erreur dans le tableau formError
         $formError['your-message'] = 'Message obligatoire';
     }
