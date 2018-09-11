@@ -3,24 +3,24 @@
     <page id="1">
         <menu>Accueil</menu>
         <title>Accueil - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1 class="text-center">Maçonnerie Ocordo</h1>
+        <content><![CDATA[<h1 class="paddingTop">Maçonnerie Ocordo</h1>
 <p class="text-center">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
 <p class="text-center">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p class="text-center">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2>Nos dernières réalisations à Nantes</h2>
-<div class="gallery_box_single">
-    <div class="img"><img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img"><img src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img"><img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img"><img src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img"><img src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+<div class=" row gallery_box_single">
+    <div class="img col-md-6"><img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
+    <div class="img col-md-6"><img src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
+    <div class="img col-md-6"><img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
+    <div class="img col-md-6"><img src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div class="img col-md-12"><img src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 ]]></content>
     </page>
     <page id="2">
         <menu>Qui sommes nous?</menu>
         <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Qui sommes-nous?</h1>
+        <content><![CDATA[<h1 class="paddingTop">Qui sommes-nous?</h1>
 <h2>L’AGENCE DE TRAVAUX OCORDO</h2>
 <h3>Présentation de notre entreprise</h3>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p>
@@ -57,7 +57,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <page id="3">
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Nos clients témoignent</h1>
+        <content><![CDATA[<h1 class="paddingTop">Nos clients témoignent</h1>
 <div class="testimonials-list">
     <div class="quote">
         <h2>Rénovation transformation</h2>
@@ -74,7 +74,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <page id="4">
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Contact et Devis</h1>    
+        <content><![CDATA[<h1 class="paddingTop">Contact et Devis</h1>    
 <p class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" style="border: 0; float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="100" height="100" frameborder="0"></iframe></p>
 <p>POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
 <ul>
@@ -94,7 +94,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <input name="your-ville" value="" size="40" class="form-control text col-8"  type="text">
         <label>Votre message * :</label>
     <textarea name="your-message" cols="40" rows="8" class="form-control textarea validates-as-required col-8"  ></textarea>
-             <input id="btn-form" type="submit" name="send" value="Envoyer"/>
+             <input class="btn btn-secondary" id="btn-form" type="submit" name="send" value="Envoyer"/>
     </form>
 </div>]]></content>
     </page>

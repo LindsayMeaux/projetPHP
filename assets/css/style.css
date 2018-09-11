@@ -46,3 +46,14 @@ h4{
 .alignText{
     text-align: center;
 }
+body{
+    background-color: #FFFDFB !important;
+}
+
+nav{
+    padding-left: 50px;
+}
+#colorContainer{
+    padding-top:15px;
+    padding-bottom: 15px;   
+}
