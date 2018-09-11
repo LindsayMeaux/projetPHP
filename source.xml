@@ -3,10 +3,10 @@
     <page id="1">
         <menu>Accueil</menu>
         <title>Accueil - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Maçonnerie Ocordo</h1>
-<p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
-<p>Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
-<p>Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
+        <content><![CDATA[<h1 class="text-center">Maçonnerie Ocordo</h1>
+<p class="text-center">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
+<p class="text-center">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
+<p class="text-center">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2>Nos dernières réalisations à Nantes</h2>
 <div class="gallery_box_single">
     <div class="img"><img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
@@ -83,17 +83,18 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <li>Ou compétez le formulaire ci-dessous :</li>
 </ul>
 <div role="form">
-    <form action="/contact-devis#f69-p47-o1" method="post" class="form" novalidate="novalidate">
-        <label>Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
-        <label>Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email"  type="email">
+    <form action="/contact-devis#f69-p47-o1" method="post" class="form" novalidate="novalidate col-8">
+        <label>Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required col-8" type="text">
+        <label>Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email col-8"  type="email">
         <label>Votre numéro de téléphone * :</label>
-        <input name="your-tel-615" value="" size="40" class="form-control text tel validates-as-required validates-as-tel"   type="tel">
+        <input name="your-tel-615" value="" size="40" class="form-control text tel validates-as-required validates-as-tel col-8"   type="tel">
         <label>Sujet :</label>
-        <input name="your-subject" value="" size="40" class="form-control text"  type="text">
+        <input name="your-subject" value="" size="40" class="form-control text col-8"  type="text">
         <label>Votre ville :</label>
-        <input name="your-ville" value="" size="40" class="form-control text"  type="text">
+        <input name="your-ville" value="" size="40" class="form-control text col-8"  type="text">
         <label>Votre message * :</label>
-        <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
+    <textarea name="your-message" cols="40" rows="8" class="form-control textarea validates-as-required col-8"  ></textarea>
+             <input type="submit" name="send" value="Envoyer"/>
     </form>
 </div>]]></content>
     </page>
