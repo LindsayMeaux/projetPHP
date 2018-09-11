@@ -36,12 +36,14 @@ include 'formController.php';
             <?= $content; ?>
             <div>
                 <?php
-                if (count($formError) == 0) {
-                    ?><p>Votre message a bien etait envoyer</p>
-                    <?php
-                } else {
-                    foreach ($formError as $error) {
-                        ?><p><?= $error; ?><?php
+                if (isset($_POST['send'])) {
+                    if (count($formError) == 0) {
+                        ?><p>Votre message a bien etait envoyer</p>
+                        <?php
+                    } else {
+                        foreach ($formError as $error) {
+                            ?><p><?= $error; ?><?php
+                            }
                         }
                     }
                     ?>
