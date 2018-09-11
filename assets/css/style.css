@@ -1,0 +1,47 @@
+img{
+    border-radius: 15%;
+    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+}
+.img{
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.caption-text{
+    text-transform: uppercase;
+}
+.container{
+    background-color: #c7d6d5;
+}
+#navbar-brand{
+    color: #FFF;
+}
+a{
+    color: #FFF !important;
+    font-family: 'Handlee', cursive;
+}
+p{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+ul{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+}
+.imgShadow{
+    width:115px;
+    box-shadow: none;
+}
+.alignText{
+    text-align: center;
+}

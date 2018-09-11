@@ -15,7 +15,7 @@ include 'controller.php';
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <img class="imgShadow" src="assets/img/Screenshot_2018-09-10 Ocordo Travaux Nantes - Entreprise de rénovation et construction.png" />
+            <img class="imgShadow" src="assets/img/ocordo.png" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
