@@ -1,6 +1,7 @@
 <?php
 // import
 include 'controller.php';
+include 'formController.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,7 +22,9 @@ include 'controller.php';
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <?php for ($numberPage = 0; $numberPage < count($allPage); $numberPage++) { ?>
+                    <?php
+                    for ($numberPage = 0; $numberPage < count($allPage); $numberPage++) {
+                        ?>
                         <li class="nav-item">
                             <a class="nav-link" href="/page-<?= $numberPage; ?>.html"><?= $xml->page[$numberPage]->menu; ?></a>
                         </li>
@@ -31,6 +34,18 @@ include 'controller.php';
         </nav>
         <div class="container" id="colorContainer">
             <?= $content; ?>
+            <div>
+                <?php
+                if (count($formError) == 0) {
+                    ?><p>Votre message a bien etait envoyer</p>
+                    <?php
+                } else {
+                    foreach ($formError as $error) {
+                        ?><p><?= $error; ?><?php
+                        }
+                    }
+                    ?>
+            </div>
         </div>
         <?php
         include 'footer.php';
