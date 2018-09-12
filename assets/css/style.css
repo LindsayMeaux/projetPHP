@@ -12,6 +12,7 @@ h1{
     text-transform: uppercase;
 }
 h2{
+    padding-top: 30px; 
     text-align: center;
     text-transform: uppercase;
 }
@@ -29,6 +30,7 @@ a{
     font-family: 'Handlee', cursive;
 }
 p{
+    padding-top: 10px;   
     font-family: 'Handlee', cursive;
     font-size: 20px;
 }
@@ -64,4 +66,8 @@ label{
 #btn-form{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#img404{
+    box-shadow: none;
+    width:800px;
 }
