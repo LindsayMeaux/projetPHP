@@ -17,21 +17,8 @@ include 'sendmail.php';
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-       <?php include 'navBar.php' ; ?>
-        <div class="container" id="colorContainer">
-        <?= $content; ?>
-        <?php if (isset($_POST['send'])) { ?>
-            <div>
-            <?php if (count($formError) == 0) { ?>
-                <p>Votre message a bien été envoyé</p>
-            <?php } else {
-                foreach ($formError as $error) {?>
-                <p><?= $error; ?></p>
-                <?php } ?>
-            <?php } ?>
-            </div>
-        <?php } ?>
-        </div>
+        <?php include 'navBar.php'; ?>
+        <?php include 'container.php'; ?>
         <?php include 'footer.php'; ?>
     </body>
 </html>
