@@ -25,5 +25,10 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>          
 </footer>
+ <div id="copyright" class="container-fluid alignText"
+            <div class="col-md-12 col-lg-12 col-xl-12 textColor">
+                <p>© 2018 Copyright : <a href="https://nantes-ocordo-travaux.fr/">Ocordo</a> </p>
+                </div>
+</div>  
