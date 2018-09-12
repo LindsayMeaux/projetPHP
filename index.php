@@ -2,6 +2,7 @@
 // import
 include 'controller.php';
 include 'formController.php';
+include 'sendmail.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,41 +17,34 @@ include 'formController.php';
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <img class="imgShadow" src="assets/img/ocordo.png" />
+            <img class="imgShadow" src="assets/img/ocordo.png" alt="logo ocordo" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <?php
-                    for ($numberPage = 0; $numberPage < count($allPage); $numberPage++) {
-                        ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/page-<?= $numberPage; ?>.html"><?= $xml->page[$numberPage]->menu; ?></a>
-                        </li>
+                    <?php for ($numberPage = 0; $numberPage < count($allPage); $numberPage++) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/page-<?= $numberPage; ?>.html"><?= $xml->page[$numberPage]->menu; ?></a>
+                    </li>
                     <?php } ?>
                 </ul>
             </div>
         </nav>
         <div class="container" id="colorContainer">
-            <?= $content; ?>
+        <?= $content; ?>
+        <?php if (isset($_POST['send'])) { ?>
             <div>
-                <?php
-                if (isset($_POST['send'])) {
-                    if (count($formError) == 0) {
-                        ?><p>Votre message a bien etait envoyer</p>
-                        <?php
-                    } else {
-                        foreach ($formError as $error) {
-                            ?><p><?= $error; ?><?php
-                            }
-                        }
-                    }
-                    ?>
+            <?php if (count($formError) == 0) { ?>
+                <p>Votre message a bien été envoyé</p>
+            <?php } else {
+                foreach ($formError as $error) {?>
+                <p><?= $error; ?></p>
+                <?php } ?>
+            <?php } ?>
             </div>
+        <?php } ?>
         </div>
-        <?php
-        include 'footer.php';
-        ?>
+        <?php include 'footer.php'; ?>
     </body>
 </html>
