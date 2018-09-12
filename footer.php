@@ -1,8 +1,8 @@
 <footer>
-    <div class="row py-5">
+    <div class="row p-5">
         <div class="container-fluid alignText">
             <div class="row">
-                <div class="col-md-3 col-lg-4 col-xl-3 ">
+                <div class="col-md-3 col-lg-3 col-xl-3 ">
                     <h4 class="text-uppercase font-weight-bold"><img class ="imgShadow" src="assets/img/Screenshot_2018-09-11 Ocordo Travaux Nantes - Entreprise de rénovation et construction.png" /></h4>
                     <p>
                         Devis gratuits
