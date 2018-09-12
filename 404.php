@@ -12,7 +12,7 @@
     </head>
     <body>
         <?php include 'navBar.php'; ?>
-        <h1><img id="img404" src="assets/img/404.1.png" /></h1>
+        <h1><img id="img404" src="assets/img/404.png" /></h1>
         <?php include 'footer.php'; ?>
     </body>
 </html>
