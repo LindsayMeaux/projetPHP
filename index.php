@@ -1,6 +1,8 @@
 <?php
 // import
 include 'controller.php';
+include 'formController.php';
+include 'sendmail.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,11 +13,11 @@ include 'controller.php';
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-          <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a id="navbar-brand" class="navbar-brand" href="/">Navbar</a>
+            <img class="imgShadow" src="assets/img/ocordo.png" alt="logo ocordo" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +33,20 @@ include 'controller.php';
         </nav>
         <div class="container">
             <?= $content; ?>
-          
+        <div class="container" id="colorContainer">
+        <?= $content; ?>
+        <?php if (isset($_POST['send'])) { ?>
+            <div>
+            <?php if (count($formError) == 0) { ?>
+                <p>Votre message a bien été envoyé</p>
+            <?php } else {
+                foreach ($formError as $error) {?>
+                <p><?= $error; ?></p>
+                <?php } ?>
+            <?php } ?>
+            </div>
+        <?php } ?>
         </div>
+        <?php include 'footer.php'; ?>
     </body>
 </html>

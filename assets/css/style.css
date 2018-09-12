@@ -1,42 +1,24 @@
-
-p{
-text-align: center; 
-font-family: arial; 
-font-size: 20px; } 
-img{ border-radius: 10%;
-box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
-
-} 
-.img{ text-align: center; 
-display: inline-block;} 
-h1{ 
+img{
+    border-radius: 15%;
+    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+}
+.img{
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
-    
-} 
-h2{ 
+}
+h2{
     text-align: center;
     text-transform: uppercase;
-} 
-ul{ 
-    font-family: arial; font-size: 20px;
 }
 .caption-text{
     text-transform: uppercase;
 }
-
 .container{
-    height: 100%;
-    background-color: #c7d6d5;
-}
-#navbar-brand{
-    color: #FFF;
-} 
-h2{ 
-    text-align: center; 
-}
-.container{
-    height: 100%;
     background-color: #c7d6d5;
 }
 #navbar-brand{
@@ -46,14 +28,39 @@ a{
     color: #FFF !important;
     font-family: 'Handlee', cursive;
 }
-p{ 
-    font-family: 'Handlee', cursive; 
-    font-size: 20px; } 
-img{ 
-    border-radius: 15%;
-    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
-} 
-h2{ text-align: center; } 
-ul{ font-family: 'Handlee', cursive; font-size: 20px;
+p{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+ul{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+}
+.imgShadow{
+    height:80px;
+    box-shadow: none;
+}
+.alignText{
+    text-align: center;
+}
+body{
+    background-color: #FFFDFB !important;
 }
 
+nav{
+    padding-left: 50px;
+}
+#colorContainer{
+    padding-top:15px;
+    padding-bottom: 15px;  
+}
+label{
+    padding-top: 15px;
+}
+#btn-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
