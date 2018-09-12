@@ -31,8 +31,6 @@ include 'sendmail.php';
                 </ul>
             </div>
         </nav>
-        <div class="container">
-            <?= $content; ?>
         <div class="container" id="colorContainer">
         <?= $content; ?>
         <?php if (isset($_POST['send'])) { ?>
